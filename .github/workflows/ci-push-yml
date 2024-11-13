@@ -1,0 +1,10 @@
+name: Node.js app CI/CD
+
+on:
+  push:
+    branches: main
+
+jobs:
+  cicd:
+    uses: Rushi0002/github-actions/.github/workflows/ci-push.yml@main
+    # secrets: inherit
